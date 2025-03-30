@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VYBE - Moda Feminina</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background: linear-gradient(135deg, #000, #2e1a3a);
+            color: white;
+        }
+        .product-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(255, 0, 127, 0.5);
+        }
+        .price {
+            color: #ff007f;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .btn {
+            background: #00ffaa;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #000;
+            border-radius: 5px;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(0, 255, 170, 0.5);
+        }
+        .btn:hover {
+            background: #ff007f;
+            box-shadow: 0 4px 15px rgba(255, 0, 127, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header class="p-6 bg-black flex justify-between items-center">
+        <h1 class="text-3xl font-bold text-pink-400">VYBE</h1>
+        <nav>
+            <ul class="flex space-x-6">
+                <li><a href=".html" class="hover:text-gray-400">Início</a></li>
+                <li><a href="sobre.html" class="hover:text-gray-400">Sobre</a></li>
+                <li><a href="#" class="hover:text-gray-400">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+                <a href="explorar.html" class="mt-6 btn">Explore Agora</a>
+    </section>
+</body>
+
+
+    <section class="p-10 text-center">
+        <h2 class="text-4xl font-extrabold mb-6">Moda Feminina</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="product-card">
+                <img src="https://source.unsplash.com/300x400/?fashion,dress" alt="Vestido Neon VYBE" class="w-full rounded">
+                <h3 class="text-2xl mt-4">Vestido Neon VYBE</h3>
+                <p class="text-gray-300">Estilo único com brilho neon para se destacar.</p>
+                <p class="price">R$ 149,90</p>
+                <button class="btn mt-4">Comprar</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://source.unsplash.com/300x400/?fashion,jacket" alt="Jaqueta Cyberpunk VYBE" class="w-full rounded">
+                <h3 class="text-2xl mt-4">Jaqueta Cyberpunk VYBE</h3>
+                <p class="text-gray-300">Design futurista para um look ousado.</p>
+                <p class="price">R$ 249,90</p>
+                <button class="btn mt-4">Comprar</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://source.unsplash.com/300x400/?fashion,sneakers" alt="Tênis Glow VYBE" class="w-full rounded">
+                <h3 class="text-2xl mt-4">Tênis Glow VYBE</h3>
+                <p class="text-gray-300">Conforto e estilo com detalhes fluorescentes.</p>
+                <p class="price">R$ 299,90</p>
+                <button class="btn mt-4">Comprar</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
