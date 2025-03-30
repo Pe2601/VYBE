@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a VYBE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background: linear-gradient(135deg, #000, #1a1a2e);
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(255, 0, 127, 0.5);
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #ff007f;
+            margin-bottom: 20px;
+        }
+        .highlight {
+            color: #00ffaa;
+            font-weight: bold;
+        }
+        nav {
+            margin-bottom: 30px;
+        }
+        nav a {
+            color: #00ffaa;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff007f;
+        }
+    </style>
+</head>
+<body>
+    <h1>VYBE - A Revolução do Estilo</h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="sobre.html">Sobre Nós</a>
+    </nav>
+    
+    <div class="container">
+        <h1>Sobre a <span class="highlight">VYBE</span></h1>
+        <p>A VYBE nasceu com um propósito claro: criar uma marca autêntica, inovadora e conectada com a nova geração. Nosso objetivo é oferecer roupas que traduzam atitude, personalidade e estilo, combinando influências da cultura gamer, streetwear e futurista.</p>
+        
+        <h2 class="text-2xl mt-6 text-pink-400">Por que escolher a VYBE?</h2>
+        <ul class="text-left mt-4">
+            <li>✅ Design exclusivo e inspirado na cultura jovem</li>
+            <li>✅ Qualidade premium com preços acessíveis</li>
+            <li>✅ Frete rápido para todo o Brasil</li>
+            <li>✅ Materiais sustentáveis e tecnologia inovadora</li>
+            <li>✅ Atendimento personalizado e experiência diferenciada</li>
+        </ul>
+        
+        <h2 class="text-2xl mt-6 text-pink-400">Nosso Propósito</h2>
+        <p class="mt-4">Acreditamos que moda é mais do que vestir-se – é uma forma de expressão. Criamos a VYBE para dar voz ao público jovem que busca originalidade e inovação, trazendo um universo onde o estilo encontra o futuro.</p>
+    </div>
+</body>
+</html>
